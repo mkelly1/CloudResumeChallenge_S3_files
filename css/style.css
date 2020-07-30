@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    color: ivory;
+}
+#box{
+    background-color: lightslategrey;
+}
+text{
+    color: darkslategrey;
+}
+a{
+    color: darkslategrey;
+}
+input{
+    border-radius: 10px;
+}
