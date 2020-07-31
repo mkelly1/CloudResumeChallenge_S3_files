@@ -125,11 +125,13 @@
       if (xhr.readyState == 4 && this.status == 200) {
         document.getElementById("site-visits").innerHTML =
         xhr.responseText;
+      } else {
+        document.getElementById("site-visits").innerHTML = " error :( ";
       }
     };
-method = "GET";
-url = 'https://zop9pzrcnj.execute-api.us-east-1.amazonaws.com/Prod/get-visit';
-xhr.open(method, url, true);
+var method = "GET";
+var url = 'https://zop9pzrcnj.execute-api.us-east-1.amazonaws.com/Prod/get-visit';
+xhr.open(method, url);
 xhr.send();
 }
 </script>
