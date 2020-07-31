@@ -1,4 +1,4 @@
-Site update 7-30-2020  The URL for my site is margokellytech.com. There is a link to my resume in the nav bar.
+Site update 7-30-2020  The URL to my "Lab" site is margokellytech.com. There is a link to my resume in the nav bar.
 
 This resume demo site is a result of taking the Cloud Resume Challenge given by Forrest Brazeal.
 I had about a week to figure out and implement the tasks involved. I already had a recent AWS certification 
@@ -22,7 +22,7 @@ The following parts of the challenge that were completed and not yet completed:
     store the count in DynamoDB. -This part works but there is a formatting issue with the web page JavaScript.
 11. Not yet completed.        
 12. Configure and deploy the AWS resources using an AWS SAM template and AWS SAM CLI.
-13. Not yet completed.
+13. Create a private GitHub repository for the backend code.
 14. Not yet completed.
 15. Create a private GitHub repository for the website code. Create a GitHub Action that will automatically
     update the S3 bucket when new code is pused to the repository.
