@@ -116,17 +116,17 @@
     <li>Portuguese – Intermediate Level</li>
 </ul>
 </div>
-<div>This site has been visited </div id="site-visits"><div> times</div>
+<div>This site has been visited </div id="site-visits">count<div> times</div>
 </div>
 <script>
     function myAjax(){
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (xhr.readyState == 4 && this.status == 200) {
-        document.getElementById("site-visits").innerHTML =
-        xhr.responseText;
+        var sitecount = JSON.parse(xhr.responseText);
+        document.getElementById("site-visits").innerHTML = sitecount.count
       } else {
-        document.getElementById("site-visits").innerHTML = " error :( ";
+        document.getElementById("site-visits").innerHTML = " error ";
       }
     };
 var method = "GET";
