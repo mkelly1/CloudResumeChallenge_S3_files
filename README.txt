@@ -18,8 +18,7 @@ The following parts of the challenge that were completed and not yet completed:
 8. Use DynamoDB to persist the value of the site counter. 
 9. Create an API Gateway to trigger a Lambda function.
 10. Use Python code and create a Lambda function that will be triggered by the API, increment the count and 
-    store the count in DynamoDB. This part works. I am able to browse to the API URL and see the count increment
-    when refreshing the page, however the count does not display correctly on my resume page. It displays as 'undefined'.
+    store the count in DynamoDB. This part works but there is a formatting issue with the web page JavaScript.
 11. Not yet completed.        
 12. Configure and deploy the AWS resources using an AWS SAM template and AWS SAM CLI.
 13. Not yet completed.
