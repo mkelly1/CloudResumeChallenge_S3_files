@@ -115,16 +115,18 @@
 <ul>
     <li>Portuguese – Intermediate Level</li>
 </ul>
-</div>
+<br>
 <span class="a">This site has been visited </span><span class="a" id="site-visits"></span><span class="a"> times</span>
+<br>
+<a href="https://zop9pzrcnj.execute-api.us-east-1.amazonaws.com/Prod/get-visit"></a>
 </div>
 <script>
     function myAjax(){
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (xhr.readyState == 4 && this.status == 200) {
-        var sitecount = JSON.parse(xhr.responseText);
-        document.getElementById("site-visits").innerHTML = sitecount.count
+        var sitecount = xhr.responseText;
+        document.getElementById("site-visits").innerHTML = sitecount
       } else {
         document.getElementById("site-visits").innerHTML = " error ";
       }

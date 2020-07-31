@@ -1,8 +1,6 @@
-Site update 7-29-2020
+Site update 7-30-2020
 
-Update reflecting the Cloud Resume Challenge
-Resume.html added along with new folder structure
-javascript included in Resume.html
-No separate js files
-
+This resume site is a result of taking the Cloud Resume Challenge given by Forrest Brazeal.
+I had about a week to figure out and implement the tasks involved. I had a test site set up on AWS
+so I adapted it for the challenge.
 
