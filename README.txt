@@ -1,10 +1,11 @@
-Site update 7-30-2020
+Site update 7-30-2020  The URL for my site is margokellytech.com. There is a link to my resume in the nav bar.
 
 This resume site is a result of taking the Cloud Resume Challenge given by Forrest Brazeal.
 I had about a week to figure out and implement the tasks involved. I had a test site set up on AWS
 so I adapted it for the challenge. I only discovered the challenge recently and so had about a week 
-to accomplish as much of the challenge as I could. It was very satisfying to figure out the many pieces I had not used before such as SAM, GitHub 
-Actions and DynamoDB. This was truly challenging and I feel that I learned a great deal.
+to accomplish as much of the challenge as I could. I was able to complete around 12 of the 16 steps.
+It was very satisfying to figure out the many pieces I had not used before such as SAM, GitHub 
+Actions, Docker and DynamoDB. This was truly challenging and I feel that I learned a great deal.
 
 The following parts of the challenge that were completed and not yet completed:
 
