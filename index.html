@@ -30,15 +30,13 @@
         <br>
         <br>
         <h5>
-            Welcome to my resume site. Below you will find links to my resume and a diagram of this website. 
+            Welcome to my resume site. Below you will find a link to my resume and a link to a diagram of this website. 
             This site contains my implementation of Forrest Brazeal's 
             <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a>. I enjoyed this challenge tremendously. 
-            The resume page implements an unassuming visitor counter in the footer. One had to use AWS API Gateway, Lambda, DynamoDB. 
-            All had to be configured and deployed using AWS SAM. Also GitHub Actions had to be used to automatically update 
-            the site's S3 contents when new code is pushed to the repository. I am currently working on the backend CI/CD and TDD portions.
-            For further challenge details, please see the 
-            <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a> page and please take a look at the 
-            <a href="/diagram.html">site diagram</a> of this site.
+            The visitor counter at the foot of my resume page is incremented by an AWS Lambda function which increments and stores the count 
+            in DynamoDB. A Javascript API call in the browser triggers the AWS Lambda function. AWS Lambda, API Gateway and DynamoDB were all 
+            deployed using AWS SAM. Also GitHub Actions had to be used to automatically update the site's S3 contents when new code is pushed 
+            to the repository. I am currently working on the backend CI/CD and TDD portions.
         </h5>
         <br>
         <ul class="list-unstyled">
