@@ -22,7 +22,6 @@
                 <li class="nav-item"><a class="nav-link" href="/diagram.html">Site Diagram</a></li>
                 <li class="nav-item"><a class="nav-link" href="/videos.html">Favorite Music</a></li>
             </ul>
-
     </nav>
 
     <div class="container">
@@ -31,17 +30,23 @@
         <br>
         <br>
         <h5>
-            Welcome to my resume website. In the navbar you will find links to my resume and
-            a link to a diagram of the website. This site contains my implementation of Forrest Brazeal's 
-            <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a>. The visitor 
-            counter at the foot of the resume page is incremented via an AWS Lambda function which increments 
-            and stores the count in DynamoDB. A Javascript API call from the browser triggers the AWS Lambda function. 
-            AWS API Gateway, Lambda and DynamoDB were all configured and deployed using AWS SAM. For challenge details, 
-            please take a look at the <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a> page.          
+            Welcome to my resume site. Below you will find links to my resume and a diagram of this website. 
+            This site contains my implementation of Forrest Brazeal's 
+            <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a>. I enjoyed this challenge tremendously. 
+            The resume page implements an unassuming visitor counter in the footer. One had to use AWS API Gateway, Lambda, DynamoDB. 
+            All had to be configured and deployed using AWS SAM. Also GitHub Actions had to be used to automatically update 
+            the site's S3 contents when new code is pushed to the repository. I am currently working on the backend CI/CD and TDD portions.
+            For further challenge details, please see the 
+            <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a> page and please take a look at the 
+            <a href="/diagram.html">site diagram</a> of this site.
         </h5>
-    <br>
-    <h5><a class="nav-link" href="/Resume.html">Resume</a></h5> 
-        
+        <br>
+        <ul class="list-unstyled">
+            <li><h5><a href="/Resume.html">Resume</a></h5></li>
+            <br>
+            <li><h5><a href="/diagram.html">Site Diagram</a></h5></li>
+        </ul>
+    </div>
 
 </body>
 </html>
