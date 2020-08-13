@@ -8,12 +8,11 @@
     <link href="/css/style.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="index">
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(227, 231, 236);" >
-
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:rgb(227, 231, 236);" >
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Margo Kelly
+                <a class="navbar-brand">Margo Kelly
                     <img src="/icons/icons8-test-tube-26.png">
                 </a>
             </div>
@@ -21,28 +20,27 @@
                 <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/Resume.html">Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="/diagram.html">Site Diagram</a></li>
+                <li class="nav-item"><a class="nav-link" href="/videos.html">Favorite Music</a></li>
             </ul>
 
-        </nav>
-    <div class="container">
-        <br/>
-<br/>
-        <h4>Some favorite music</h4>
-        <br>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ak6VT4E1kyE" allowfullscreen></iframe>
-            </div>
-              
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-qxIpI8w5vM" allowfullscreen></iframe>
-            </div>
+    </nav>
 
-            <div class="embed-responsive embed-responsive-16by9">
-                <video controls>
-                    <source src="/videos/006.mp4" type="video/mp4">
-                    Sorry your browser does not support the video tag.
-                </video>
-            </div>
-    </div>
+    <div class="container">
+        <br><br><br><br><br><br><br><br>
+        <h1>Margo K. Kelly</h1>
+        <br>
+        <br>
+        <h5>
+            Welcome to my resume website. In the navbar you will find links to my resume and
+            a link to a diagram of the website. This site contains my implementation of Forrest Brazeal's 
+            <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a>. The visitor 
+            counter at the foot of my resume page is incremented by an AWS Lambda function which incrememtns 
+            and stores the count value in DynamoDB. Javascript in the browser triggers the AWS Lambda function. 
+            AWS Lambda, API Gateway and DynamoDB were all deployed using an AWS SAM yaml file.            
+        </h5>
+    <br>
+    <h5><a class="nav-link" href="/Resume.html">Resume</a></h5> 
+        
+
 </body>
 </html>

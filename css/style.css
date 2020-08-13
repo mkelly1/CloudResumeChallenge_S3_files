@@ -1,10 +1,27 @@
+html {
+    height: 100%;
+}
 body {
     height: 100%;
     background-color: ivory;
 }
-span.a {
-    display: inline;
+footer {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
 }
-text{
+text {
     color: darkslategrey;
 }
+#index {
+    min-height: 100%;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#diagram {
+    background-color: white;
+}
+
