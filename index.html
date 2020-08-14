@@ -26,18 +26,18 @@
 
     <div class="container">
         <br><br><br><br><br><br><br><br>
-        <h1>I'm Margo K. Kelly and I'm headed for the cloud</h1>
+        <h1>I'm Margo K. Kelly and I'm headed for the Cloud</h1>
         <br>
         <br>
         <br>
         <h5>
             Welcome to my resume site. This site contains my implementation of Forrest Brazeal's 
             <a href="https://cloudresumechallenge.dev/instructions/">Cloud Resume Challenge</a>. I enjoyed this challenge tremendously. 
-            The visitor counter at the foot of the resume page is implemented using AWS Lambda, DynamoDB and API Gateway. 
-            A Javascript API call in the browser triggers the AWS Lambda function. AWS Lambda, API Gateway and DynamoDB were all 
-            deployed using AWS SAM. GitHub Actions is used to automatically update the site's S3 contents when new code is pushed 
-            to the repository. I am currently working on the backend CI/CD and TDD portions of the challenge. I welcome you to visit my 
-            resume page and site diagram.
+            The visitor counter at the foot of the resume page is implemented using AWS API Gateway, Lambda and DynamoDB. 
+            A Javascript API call in your browser to API Gateway triggers the AWS Lambda function, which retreves a value from DynamoDB, updates the value 
+            and sends the value in a response back through API Gateway. AWS API Gateway, Lambda and DynamoDB are all configured and deployed using AWS SAM CLI. 
+            GitHub Actions is used to automatically update the site's S3 contents when new code is pushed to the repository. I am currently working on 
+            implementing the backend CI/CD portion of the challenge. I welcome you to visit my resume page and site diagram.
         </h5>
         <br>
         <ul class="list-unstyled">
