@@ -21,4 +21,4 @@ jobs:
         aws-region: 'us-east-1'   # optional: defaults to us-east-1
 
     - name: Copy files to S3 using AWS CLI 
-      run: aws s3 sync . s3://mkkdemo-site --delete --exclude ".*/*"
+      run: aws s3 sync . s3://mkkdemo-site --exclude ".*/*"
