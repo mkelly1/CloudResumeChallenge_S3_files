@@ -1,4 +1,4 @@
-Site update 8-13-2020 Margo Kelly
+Site update 9-02-2020 - Margo Kelly
 The URL to my "Resume" site is MargoKellyTech.com . 
 
 This resume site is a result of my taking the Cloud Resume Challenge given by Forrest Brazeal in the summer of 2020.
@@ -11,7 +11,7 @@ Currently, I am working on finishing up the TDD, blog and backend CI/CD parts of
 
 
 Below are the items of the challenge that I have completed so far:
-(The items with an asterix are pending completion.)
+(The items with ** are pending completion.)
 
 1. AWS Certification - AWS Solutions Architect Associate
 2. Resume using HTML.
@@ -24,10 +24,10 @@ Below are the items of the challenge that I have completed so far:
 9. Create an API Gateway to trigger a Lambda function.
 10. Use Python code and create an AWS Lambda function, triggered by the API, that will increment the count and 
     store the count in DynamoDB.
-11. *Python TDD - pending completion.        
+11. **Python TDD - pending completion.        
 12. Configure and deploy the AWS resources using an AWS SAM template and AWS SAM CLI.
 13. Create a private GitHub repository for the backend code.
-14. *CI/CD (backend) - pending completion.
+14. **CI/CD (backend) - pending completion.
 15. Create a private GitHub repository for the website code. Create a GitHub Action that will automatically
     update the S3 bucket when new code is pushed to the repository. 
-16. *Blog post - pending completion.
+16. **Blog post - pending completion.
